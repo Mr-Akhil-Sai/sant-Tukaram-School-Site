@@ -1,90 +1,99 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    }
-body{
-    background-image: url("./assets/schlBg.jpeg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    overflow: hidden;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-.menu{
-    z-index: 2;
-    position: absolute;
-    left: 1em;
-    top: 1em;
+body {
+  background-image: url("./assets/schlBg.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  overflow: hidden;
 }
-.schlNameDiv{
-    display: flex;
-    justify-content: center;
+.menuBtn {
+  z-index: 2;
+  position: absolute;
+  left: 1em;
+  top: 1em;
 }
-.schlName{
-    position: absolute;
-    top: 1em;
-    left: 2.7em;
-    color: red;
-    font-size: 5em;
+.menuBtn:hover {
+  cursor: pointer;
 }
-.tagLineDiv{
-    display: flex;
-    justify-content:center;
-    padding: 0;
+.schlNameDiv {
+  display: flex;
+  justify-content: center;
 }
-.tagLine{
-    position: absolute;
-    left: 1.3em;
-    top: 2em;
-    color: rgb(53, 165, 230);
-    font-size: 10em;
-    font-weight: bolder;
+.schlName {
+  position: absolute;
+  top: 1em;
+  left: 2.7em;
+  color: red;
+  font-size: 5em;
 }
-.aside{
-    height: 100vh;
-    width: 15vw;
-    background-color: rgb(18, 18, 109);
+.tagLineDiv {
+  display: flex;
+  justify-content: center;
+  padding: 0;
 }
-.crossBtn{
-    background: none;
-    border: none;
-    color: whitesmoke;
-    font-size: 2em;
-    position: relative;
-    left: 4.6em;
-    margin: .2em;
+.tagLine {
+  position: absolute;
+  left: 1.3em;
+  top: 2em;
+  color: rgb(53, 165, 230);
+  font-size: 10em;
+  font-weight: bolder;
 }
-.classBox{
-    height: 9vh;
-    width: 13vw;
-    display: flex;
-    flex-direction: column;
-    margin: auto;
-    background-color: red;
-    justify-content: center;
-    font-size: 1.5rem;
-    border: 3px solid rgb(18, 18, 109) ;
+.aside {
+  height: 100vh;
+  width: 15vw;
+  background-color: rgb(18, 18, 109);
 }
-.classBox:nth-child(2){
-    padding: 0 1.6em;
-    background-color: rgb(252, 153, 136);
+.crossBtn {
+  background: none;
+  border: none;
+  color: whitesmoke;
+  font-size: 2em;
+  position: relative;
+  left: 4.6em;
+  margin: 0.2em;
 }
-.classBox:nth-child(3){
-    padding: 0 1.6em;
-    background-color: rgb(194, 194, 194);
+.crossBtn:hover {
+  cursor: pointer;
 }
-.classBox:nth-child(4){
-    padding: 0 1.6em;
-    background-color: rgb(250, 250, 118);
+.classBox {
+  height: 9vh;
+  width: 13vw;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  background-color: red;
+  justify-content: center;
+  font-size: 1.5rem;
+  border: 3px solid rgb(18, 18, 109);
 }
-.classBox:nth-child(5){
-    padding: 0 1.6em;
-    background-color: lightblue;
+.classBox:hover {
+  cursor: pointer;
 }
-.classBox:nth-child(n + 6){
-    padding: 0 1.6em;
-    background-color: rgb(147, 202, 147);
+.classBox:nth-child(2) {
+  padding: 0 1.6em;
+  background-color: rgb(252, 153, 136);
 }
-.classBox:nth-child(11){
-    padding: 0 1.3em;
-    background-color: rgb(147, 202, 147);
+.classBox:nth-child(3) {
+  padding: 0 1.6em;
+  background-color: rgb(194, 194, 194);
+}
+.classBox:nth-child(4) {
+  padding: 0 1.6em;
+  background-color: rgb(250, 250, 118);
+}
+.classBox:nth-child(5) {
+  padding: 0 1.6em;
+  background-color: lightblue;
+}
+.classBox:nth-child(n + 6) {
+  padding: 0 1.6em;
+  background-color: rgb(147, 202, 147);
+}
+.classBox:nth-child(11) {
+  padding: 0 1.3em;
+  background-color: rgb(147, 202, 147);
 }
