@@ -22,9 +22,9 @@ body{
 .schlName{
     position: absolute;
     top: 1em;
-    left: 1.1em;
+    left: 2.7em;
     color: red;
-    font-size: 6em;
+    font-size: 5em;
 }
 .tagLineDiv{
     display: flex;
@@ -33,9 +33,34 @@ body{
 }
 .tagLine{
     position: absolute;
-    left: 1em;
+    left: 1.3em;
     top: 2em;
     color: rgb(53, 165, 230);
     font-size: 10em;
     font-weight: bolder;
+}
+.aside{
+    height: 100vh;
+    width: 15vw;
+    background-color: rgb(18, 18, 109);
+}
+.crossBtn{
+    background: none;
+    border: none;
+    color: whitesmoke;
+    font-size: 2em;
+    position: relative;
+    left: 4.6em;
+    margin: .2em;
+}
+.classBox{
+    height: 9vh;
+    width: 13vw;
+    display: grid;
+    margin: auto;
+    grid-template-rows: repeat(10, 1fr);
+    background-color: red;
+}
+.classBox:nth-child(1){
+    background: teal  ;
 }
