@@ -56,11 +56,35 @@ body{
 .classBox{
     height: 9vh;
     width: 13vw;
-    display: grid;
+    display: flex;
+    flex-direction: column;
     margin: auto;
-    grid-template-rows: repeat(10, 1fr);
     background-color: red;
+    justify-content: center;
+    font-size: 1.5rem;
+    border: 3px solid rgb(18, 18, 109) ;
 }
-.classBox:nth-child(1){
-    background: teal  ;
+.classBox:nth-child(2){
+    padding: 0 1.6em;
+    background-color: rgb(252, 153, 136);
+}
+.classBox:nth-child(3){
+    padding: 0 1.6em;
+    background-color: rgb(194, 194, 194);
+}
+.classBox:nth-child(4){
+    padding: 0 1.6em;
+    background-color: rgb(250, 250, 118);
+}
+.classBox:nth-child(5){
+    padding: 0 1.6em;
+    background-color: lightblue;
+}
+.classBox:nth-child(n + 6){
+    padding: 0 1.6em;
+    background-color: rgb(147, 202, 147);
+}
+.classBox:nth-child(11){
+    padding: 0 1.3em;
+    background-color: rgb(147, 202, 147);
 }

@@ -18,11 +18,11 @@ function addingElementsToAside(aside){
     crossBtn.addEventListener("click", ()=>menuCollapse(aside));
     crossBtn.classList.add("crossBtn");
     aside.appendChild(crossBtn);
-    for(let i = 0 ; i <10 ; i++){
-        let i = document.createElement("p");
-        i.innerHTML = "class";
-        i.classList.add("classBox");
-        aside.appendChild(i);
+    for(let i = 1 ; i <= 10 ; i++){
+        let paragraph = document.createElement("p");
+        paragraph.innerHTML = "class " + i;
+        paragraph.classList.add("classBox");
+        aside.appendChild(paragraph);
     }
 }
 
