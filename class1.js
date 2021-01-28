@@ -4,7 +4,7 @@ function menuOpen() {
   let aside = document.createElement("aside");
   let body = document.querySelector("body");
   body.appendChild(aside);
-  aside.classList.add("asideClass1");
+  aside.classList.add("aside");
   menu.style.display = "none";
   addingElementsToAside(aside);
 }
@@ -15,13 +15,7 @@ function addingElementsToAside(aside) {
   crossBtn.addEventListener("click", () => menuCollapse(aside));
   crossBtn.classList.add("crossBtn");
   aside.appendChild(crossBtn);
-  for (let i = 1; i <= 10; i++) {
-    let paragraph = document.createElement("p");
-    paragraph.innerHTML = "class " + i;
-    paragraph.classList.add("classBox");
-    paragraph.addEventListener("click", () => openNewPage());
-    aside.appendChild(paragraph);
-  }
+  
 }
 
 function menuCollapse(aside) {
@@ -30,5 +24,5 @@ function menuCollapse(aside) {
 }
 
 function openNewPage() {
-  window.open("./class1.html", "_parent");
+  window.open("./class1.html", "_self");
 }
