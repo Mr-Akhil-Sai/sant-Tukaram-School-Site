@@ -27,7 +27,7 @@ body {
   justify-content: center;
   background-color: #2A2927;
   color: #FCCF0D;
-  font-size: 1.5rem;
+  font-size: 2rem;
   position: absolute;
   left: 60%;
   top: 5%;
@@ -60,6 +60,7 @@ body {
   position: absolute;
   left: 90%;
   top: 85%;
+  z-index: 2;
 }
 .backBtn:hover {
   cursor: pointer;
@@ -160,11 +161,21 @@ body {
 /* Marati page css */
 
 .maratiHeader {
-  width: 90vw;
-  margin: 1em auto;
-  background-color: rgb(240, 86, 29);
-  color: whitesmoke;
+  width:80vw;
+  margin: 1em 0;
+  border-radius: 2em;
+  margin-left: 7.4em;
+  font-size: 2rem;
+  background-color: #2A2927;
+  color: #FCCF0D;
   display: flex;
   justify-content: center;
-  font-size: 2rem;
+  position: relative;
+  z-index: 10;
+}
+.bg1{
+  height: 200vh;
+  width: 200vw;
+  background-color: #FCCF0D;
+  transform: rotate(45deg);
 }
