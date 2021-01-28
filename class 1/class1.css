@@ -56,6 +56,14 @@
     font-size: 8rem;
     margin: auto;
   }
+  .backBtn{
+    position: absolute;
+    left: 90%;
+    top: 85%;
+  }
+  .backBtn:hover{
+    cursor: pointer;
+  }
   .asideClass1{
     height: 100vh;
     width: 15vw;
@@ -147,4 +155,16 @@
   }
   .evs:hover{
     cursor: pointer;
+  }
+  
+  /* Marati page css */
+
+  .maratiHeader{
+    width: 90vw;
+    margin: 1em auto;
+    background-color: rgb(240, 86, 29);
+    color: whitesmoke;
+    display:flex;
+    justify-content: center;
+    font-size: 2rem;
   }

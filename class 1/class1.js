@@ -1,4 +1,5 @@
 let menu = document.querySelector(".menuBtn");
+let backBtn = document.querySelector(".backBtn");
 
 function menuOpen() {
   let aside = document.createElement("aside");
@@ -25,7 +26,7 @@ function addingElementsToAside(aside){
     let english = document.createElement("p");
     let maths = document.createElement("p");
     let evs = document.createElement("p");
-    heading.innerHTML = "Class <br> 1";
+    heading.innerHTML = "Class <br> &nbsp;&nbsp; 1";
     marati.innerHTML = "Marati";
     hindi.innerHTML = "Hindi";
     english.innerHTML = "English";
@@ -55,3 +56,10 @@ function menuCollapse(aside) {
   menu.style.display = "flex";
 }
 
+function homePage(){
+  window.open("../index.html", "self");
+}
+
+function previousPage(){
+  window.open("./class1.html", "self");
+}
