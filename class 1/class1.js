@@ -14,7 +14,7 @@ function addingElementsToAside(aside) {
   let english = document.createElement("p");
   let maths = document.createElement("p");
   let evs = document.createElement("p");
-  heading.innerHTML = "Class <br> &nbsp;&nbsp; 1";
+  heading.innerHTML = "Class <br> &nbsp;&nbsp;&nbsp; 1";
   marati.innerHTML = "Marati";
   hindi.innerHTML = "Hindi";
   english.innerHTML = "English";

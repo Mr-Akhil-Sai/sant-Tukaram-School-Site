@@ -7,10 +7,17 @@ body {
   background-image: url("./assets/schlBg.jpeg");
   background-size: cover;
   background-repeat: no-repeat;
+  overflow: hidden;
+}
+.bg{
+  height: 100vh;
+  width: 200vw;
+  background-color: #FCCF0D;
+  transform: rotate(45deg);
 }
 .class1 {
   height: 100vh;
-  background-color: coral;
+  background-color: whitesmoke;
   z-index: 2;
 }
 .teacherProfileH1Div {
@@ -18,25 +25,27 @@ body {
   margin: 0 auto;
   display: flex;
   justify-content: center;
-  background-color: rgb(240, 86, 29);
-  color: black;
+  background-color: #2A2927;
+  color: #FCCF0D;
+  font-size: 1.5rem;
   position: absolute;
   left: 60%;
   top: 5%;
   transform: translate(-60%, -5%);
+  border-radius: 2em;
 }
 .teacherProfileH1 {
   text-decoration: underline;
 }
 .teacherProfileDiv {
-  background-color: rgb(240, 86, 29);
-  color: black;
+  background-color: #2A2927;
+  color: #FCCF0D;
   display: flex;
   justify-content: center;
   position: absolute;
   left: 60%;
-  top: 70%;
-  transform: translate(-60%, -70%);
+  top: 80%;
+  transform: translate(-60%, -80%);
   width: 70vw;
   height: 80vh;
   border-radius: 4em;
@@ -60,14 +69,16 @@ body {
   width: 15vw;
   position: absolute;
   top: 0;
-  background-color: rgb(18, 18, 109);
+  background-color: #2A2927;
+
 }
 .class1Heading {
   width: 13vw;
   height: 20vh;
   margin: 1em auto;
   padding: 0.5em;
-  background-color: chocolate;
+  color: #2A2927;
+  background-color: #FCCF0D;
   font-size: 3rem;
   border-radius: 1.5em;
   box-shadow: 10px 10px 5px black;
@@ -80,9 +91,11 @@ body {
   height: 10vh;
   margin: 0.5em auto;
   padding: 0.5em 1em;
-  background-color: rgb(240, 86, 29);
+  color: #2A2927;
+  background-color: #FCCF0D;
   font-size: 2rem;
   box-shadow: 10px 10px 5px black;
+  border-radius: 2em;
 }
 .marati:hover {
   cursor: pointer;
@@ -92,8 +105,10 @@ body {
   height: 10vh;
   margin: 0.5em auto;
   padding: 0.5em 1em;
-  background-color: rgb(240, 86, 29);
+  color: #2A2927;
+  background-color: #FCCF0D;
   font-size: 2rem;
+  border-radius: 2em;
   box-shadow: 10px 10px 5px black;
 }
 .hindi:hover {
@@ -104,7 +119,9 @@ body {
   height: 10vh;
   margin: 0.5em auto;
   padding: 0.5em 1em;
-  background-color: rgb(240, 86, 29);
+  border-radius: 2em;
+  color: #2A2927;
+  background-color: #FCCF0D;
   font-size: 2rem;
   box-shadow: 10px 10px 5px black;
 }
@@ -116,8 +133,10 @@ body {
   height: 10vh;
   margin: 0.5em auto;
   padding: 0.5em 1em;
-  background-color: rgb(240, 86, 29);
+  color: #2A2927;
+  background-color: #FCCF0D;
   font-size: 2rem;
+  border-radius: 2em;
   box-shadow: 10px 10px 5px black;
 }
 .maths:hover {
@@ -128,7 +147,9 @@ body {
   height: 10vh;
   margin: 0.5em auto;
   padding: 0.5em 1em;
-  background-color: rgb(240, 86, 29);
+  border-radius: 2em;
+  color: #2A2927;
+  background-color: #FCCF0D;
   font-size: 2rem;
   box-shadow: 10px 10px 5px black;
 }
