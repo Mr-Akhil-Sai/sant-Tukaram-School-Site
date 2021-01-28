@@ -4,7 +4,7 @@ function menuOpen() {
   let aside = document.createElement("aside");
   let body = document.querySelector("body");
   body.appendChild(aside);
-  aside.classList.add("asideClass1");
+  aside.classList.add("aside");
   menu.style.display = "none";
   addingElementsToAside(aside);
 }
@@ -30,5 +30,5 @@ function menuCollapse(aside) {
 }
 
 function openNewPage() {
-  window.open("./class1.html", "_parent");
+  window.open("./class 1/class1.html", "_parent");
 }
