@@ -14,7 +14,7 @@ function addingElementsToAside(aside) {
   let english = document.createElement("p");
   let maths = document.createElement("p");
   let evs = document.createElement("p");
-  heading.innerHTML = "Class <br> &nbsp;&nbsp;&nbsp; 1";
+  heading.innerHTML = "Class <br> 1";
   marati.innerHTML = "Marati";
   hindi.innerHTML = "Hindi";
   english.innerHTML = "English";
@@ -52,7 +52,7 @@ function addingStylesToAsideElements(
   english.classList.add("english");
   maths.classList.add("maths");
   evs.classList.add("evs");
-  marati.addEventListener("click", () => window.open("./marati.html", "_self"));
+  marati.addEventListener("click", () => window.open("./marati.html", "self"));
   hindi.addEventListener("click", () => window.open("./hindi.html", "self"));
   english.addEventListener("click", () =>
     window.open("./english.html", "self")
